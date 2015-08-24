@@ -8,6 +8,9 @@ This script is dependent on the following packages:
 
 All of these packages are available via pip.
 
+
+> pip install numpy pysal tabulate argparse
+
 This script is intended to take a shapefile ID (to differentiate rows), and path to the shapefile, and print out a tabulated Spatial Gini coefficient for each column in the shapefile DBF file.
 
 > python SpatialGenie.py <id> <path>
